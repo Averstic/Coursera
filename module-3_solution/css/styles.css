@@ -17,7 +17,7 @@ greenish	#7E8F7C*/
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #FDF3E7;
+  background-color: white;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -198,18 +198,22 @@ p{
 
 
 
-::-webkit-scrollbar
+.wrapper::-webkit-scrollbar
 {
-  width: 12px;  /* for vertical scrollbars */
+  width: 7px;  /* for vertical scrollbars */
   height: 12px; /* for horizontal scrollbars */
+  margin:0;
+
 }
 
-::-webkit-scrollbar-track
+.wrapper::-webkit-scrollbar-track
 {
   background: rgba(0, 0, 0, 0.1);
 }
 
-::-webkit-scrollbar-thumb
+.wrapper::-webkit-scrollbar-thumb
 {
-  background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
 }
